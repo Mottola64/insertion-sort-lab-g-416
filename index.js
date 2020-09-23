@@ -1,5 +1,5 @@
 function findMinAndRemove(array){
-return Math.min(array)
+return Math.min(array).pop()
 }
 
 function insertionSort(array){
