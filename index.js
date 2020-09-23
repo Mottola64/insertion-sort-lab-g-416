@@ -1,5 +1,6 @@
 function findMinAndRemove(array){
-return Math.min(array).pop()
+  let smallest = Math.min()
+return array.smallest.pop()
 }
 
 function insertionSort(array){
