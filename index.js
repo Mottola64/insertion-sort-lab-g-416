@@ -10,6 +10,13 @@ function findMinAndRemove(array){
   array.splice(minIndex, 1);
   return currentMin;
 }
-function insertionSort(array){
 
+function insertionSort(array){
+  let sorted = []
+  let min;
+  while(array.length != 0){
+    min = findMinAndRemove(array)
+    sorted.push(min)
+  }
+  return sorted;
 }
